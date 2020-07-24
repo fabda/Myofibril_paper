@@ -42,6 +42,7 @@ To deploy both Datasets and Models, just unzip the files into the *Segmentation*
 
 ## 3 - Analysis (shape)
 
+Once the segmentation is done, the segmentation result is passed to Fiji's MorpholibJ plugin to further post processing and 3D component labelling of objects (See paper Material & Methods section for more details). A CSV file is generated and passed to the *Analysis/analysis.ipynb* where all shape classification and quantification is done.
 
 
 
