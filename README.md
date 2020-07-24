@@ -29,8 +29,8 @@ All datasets used to train our deep learning segmentation models as well as trai
 
 |                |   Links  |
 |----------------|----------|
-| Datasets       | [link]() |
-| Models         | [link]() |
+| Datasets       | [link](https://amubox.univ-amu.fr/s/cwa5KfPLxGWXCm4/download) |
+| Models         | [link](https://amubox.univ-amu.fr/s/pBSFKic6qASHyJT/download) |
 
 To deploy both Datasets and Models, just unzip the files into the *Segmentation* directory.
 
