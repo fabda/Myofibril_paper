@@ -20,7 +20,7 @@ This repository contains two main directories:
 - *__Segmentation__* which contains scripts for addressing the training and deployment of the segmentation model
 - *__Analysis__* which contains script for the shape analysis and paper's figure generation
 
-Install time: Depends mainly of your internet connection as every Python packages are downloaded and installed on the fly.
+*__Install time:__* Depends mainly of your internet connection as every Python packages are downloaded and installed on the fly.
 
 ## 2 - Segmentation (Deep Learning)
 
@@ -40,7 +40,6 @@ Once done you should have a new __data__ directory into the __Segmentation__ dir
 and a new __model__ directory into the __Segmentation__ directory : Segmentation/models/
 
 
-
 ### Model Training & Segmentation
 
 - To train a model from scratch,use the *Segmentation/model_training.ipynb* Jupyter Notebook (See the notebook for detailed step by step instructions)
@@ -51,9 +50,11 @@ and a new __model__ directory into the __Segmentation__ directory : Segmentation
 
 All models (provided in the link above) have been trained using one Nvidia GV100 GPU card (32Go GPU RAM). 
 
-Training time should vary greatly according to the hardware used (GPU, CPU), but you can build a model on both architecture.
+- Training time should vary greatly according to the hardware used (GPU, CPU), but you can build a model on both architecture even though we advise you to use a train the model on a GPU card.
 
-According to your hardware specifications, you should consider decreasing the training *batch size* to avoid GPU/CPU RAM crashes.
+- Segmentation can be done on a full 1024x1024 stack in a couple of seconds on a GPU (dozen seconds on a CPU)
+
+According to your hardware specifications, you should also consider decreasing the training *batch size* parameter into the Notebook to avoid GPU/CPU RAM crashes.
 
 
 ## 3 - Analysis : Shape classification and quantification
@@ -62,7 +63,7 @@ Once the segmentation is done, the segmentation result is passed to Fiji's Morph
 
 A CSV file is generated and passed to the *Analysis/analysis.ipynb* where all shape classification and quantification are done and Figures are generated.
 
-Running time : This notebook can be fully executed in a couple of minuts on a normal computer.
+*__Running time__* : This notebook can be fully executed in a couple of minuts on a normal computer.
 
 
 
