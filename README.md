@@ -17,8 +17,8 @@ pip install -r requirements.txt
 ```
 
 This repository contains two main directories:
-- *Segmentation* which contains scripts for addressing the training and deployment of the segmentation model
-- *Analysis* which contains script for the shape analysis and paper's figure generation
+- *__Segmentation__* which contains scripts for addressing the training and deployment of the segmentation model
+- *__Analysis__* which contains script for the shape analysis and paper's figure generation
 
 
 ## 2 - Segmentation (Deep Learning)
@@ -34,6 +34,12 @@ All datasets used to train our deep learning segmentation models as well as trai
 
 To deploy both Datasets and Models, just unzip the files into the *Segmentation* directory.
 
+Once done you should have a new __data__ directory into the __Segmentation__ directory : Segmentation/data/
+
+and a new __model__ directory into the __Segmentation__ directory : Segmentation/models/
+
+
+
 ### Model Training & Segmentation
 
 - To train a model from scratch,use the *Segmentation/model_training.ipynb* Jupyter Notebook (See the notebook for detailed step by step instructions)
@@ -42,7 +48,9 @@ To deploy both Datasets and Models, just unzip the files into the *Segmentation*
 
 ## 3 - Analysis : Shape classification and quantification
 
-Once the segmentation is done, the segmentation result is passed to Fiji's MorpholibJ plugin to further post processing and 3D component labelling of objects (See paper Material & Methods section for more details). A CSV file is generated and passed to the *Analysis/analysis.ipynb* where all shape classification and quantification is done.
+Once the segmentation is done, the segmentation result is passed to Fiji's MorpholibJ plugin to further post processing and 3D component labelling of objects (See paper Material & Methods section for more details).
+
+A CSV file is generated and passed to the *Analysis/analysis.ipynb* where all shape classification and quantification are done and Figures are generated.
 
 
 
