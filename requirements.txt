@@ -12,3 +12,4 @@ matplotlib==3.0.3
 h5py==2.9.0
 libtiff==0.4.2
 tifffile==2019.7.26.2
+pandas==0.25.3
