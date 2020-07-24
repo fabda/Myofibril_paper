@@ -32,7 +32,7 @@ All datasets used to train our deep learning segmentation models as well as trai
 | Datasets       | [link]() |
 | Models         | [link]() |
 
-To deploy both Datasets and Models, just unzip the files at the root of your local cloned repository.
+To deploy both Datasets and Models, just unzip the files into the *Segmentation* directory.
 
 ### Model Training & Segmentation
 
@@ -41,6 +41,7 @@ To deploy both Datasets and Models, just unzip the files at the root of your loc
 - To segment an image using a trained model, use *Segmentation/segmentation.ipynb* Jupyter Notebook (See the notebook for detailed step by step instructions)
 
 ## 3 - Analysis (shape)
+
 
 
 
