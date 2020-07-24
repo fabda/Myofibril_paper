@@ -20,6 +20,7 @@ This repository contains two main directories:
 - *__Segmentation__* which contains scripts for addressing the training and deployment of the segmentation model
 - *__Analysis__* which contains script for the shape analysis and paper's figure generation
 
+Install time: Depends mainly of your internet connection as every Python packages are downloaded and installed on the fly.
 
 ## 2 - Segmentation (Deep Learning)
 
@@ -46,12 +47,22 @@ and a new __model__ directory into the __Segmentation__ directory : Segmentation
 
 - To segment an image using a trained model, use *Segmentation/segmentation.ipynb* Jupyter Notebook (See the notebook for detailed step by step instructions)
 
+### Hardware
+
+All models (provided in the link above) have been trained using one Nvidia GV100 GPU card (32Go GPU RAM). 
+
+Training time should vary greatly according to the hardware used (GPU, CPU), but you can build a model on both architecture.
+
+According to your hardware specifications, you should consider decreasing the training *batch size* to avoid GPU/CPU RAM crashes.
+
+
 ## 3 - Analysis : Shape classification and quantification
 
 Once the segmentation is done, the segmentation result is passed to Fiji's MorpholibJ plugin to further post processing and 3D component labelling of objects (See paper Material & Methods section for more details).
 
 A CSV file is generated and passed to the *Analysis/analysis.ipynb* where all shape classification and quantification are done and Figures are generated.
 
+Running time : This notebook can be fully executed in a couple of minuts on a normal computer.
 
 
 
