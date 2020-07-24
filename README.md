@@ -36,16 +36,12 @@ To deploy both Datasets and Models, just unzip the files at the root of your loc
 
 ### Model Training & Segmentation
 
-- To train a model from scratch,use the *Segmentation/model_training.ipynb" Jupyter Notebook (See the notebook for detailed step by step instructions)
+- To train a model from scratch,use the *Segmentation/model_training.ipynb* Jupyter Notebook (See the notebook for detailed step by step instructions)
 
 - To segment an image using a trained model, use *Segmentation/segmentation.ipynb* Jupyter Notebook (See the notebook for detailed step by step instructions)
 
+## 3 - Analysis (shape)
 
 
-
-
-
-
-### Jupyter Notebooks
 
 
