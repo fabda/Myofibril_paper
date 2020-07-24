@@ -40,7 +40,7 @@ To deploy both Datasets and Models, just unzip the files into the *Segmentation*
 
 - To segment an image using a trained model, use *Segmentation/segmentation.ipynb* Jupyter Notebook (See the notebook for detailed step by step instructions)
 
-## 3 - Analysis (shape)
+## 3 - Analysis : Shape classification and quantification
 
 Once the segmentation is done, the segmentation result is passed to Fiji's MorpholibJ plugin to further post processing and 3D component labelling of objects (See paper Material & Methods section for more details). A CSV file is generated and passed to the *Analysis/analysis.ipynb* where all shape classification and quantification is done.
 
