@@ -72,12 +72,12 @@ All models (provided in the link above) have been trained using one Nvidia GV100
 
 According to your hardware specifications, you should also consider decreasing the training *batch size* parameter into the Notebook to avoid GPU/CPU RAM crashes.
 
-Some insight on model training time according to the two different GPU architecture tested with a fixed 400 steps per epochs parameters:
+Some insight on model training time according to CPU and GPU hardware tested with a fixed 400 steps per epochs parameters:
 
-|     GPU        |   Time per epoch (in seconds)  |
+|     Hardware        |   Time per epoch (in seconds)  |
 |----------------|----------|
 | Nvidia GV 100  | 27 s     |
-| Nvidia M2000M  | 769s     |
+| CPU            | 769 s    |
 
 
 
