@@ -38,6 +38,10 @@ This repository contains two main directories:
 
 *__Install time:__* Depends mainly of your internet connection as every Python packages are downloaded and installed on the fly.
 
+Alternative : Use of MyBinder
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fabda/Myofibril_paper/master)
+
 ## 2 - Segmentation (Deep Learning)
 
 ### Datasets & Models
