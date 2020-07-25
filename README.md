@@ -16,6 +16,22 @@ Then create a virtual environment and process to the python requirements install
 pip install -r requirements.txt
 ```
 
+Then install _ipython kernel_, type:
+
+```
+ipyhton kernel install --user --name=myofibril_kernel
+```
+
+and starts Jupyter Notebook server:
+
+```
+jupyter notebook
+```
+
+You'll may be have to change the default jupyter notebook kernel to use the __myofibril_kernel__ 
+
+To do so, once your notebook is open, select _Menu Kernel_ -> Change kernel -> myofibril_kernel
+
 This repository contains two main directories:
 - *__Segmentation__* which contains scripts for addressing the training and deployment of the segmentation model
 - *__Analysis__* which contains script for the shape analysis and paper's figure generation
