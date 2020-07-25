@@ -40,7 +40,7 @@ This repository contains two main directories:
 
 ## 1 - Alternative Setup with  MyBinder
 
-Click on the button below to deploy a Jupyter Notebook server on the cloud and run the code without any install on a local computer.
+Click on the button below to deploy a Jupyter Notebook server on the cloud and run the code without any install on a local computer (This could take a couple of minuts)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fabda/Myofibril_paper/master)
 
