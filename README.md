@@ -88,7 +88,7 @@ Some insight on model training time according to CPU and GPU hardware tested wit
 |----------------|----------|
 | Nvidia GV 100  | 27 s     |
 | CPU            | 769 s    |
-
+| MyBinder (CPU) | 2980 s   |
 
 
 ## 3 - Analysis : Shape classification and quantification
