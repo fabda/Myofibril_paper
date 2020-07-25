@@ -99,5 +99,7 @@ A CSV file is generated and passed to the *Analysis/analysis.ipynb* where all sh
 
 *__Running time__* : This notebook can be fully executed in a couple of minuts on a normal computer.
 
+## 4 - License
 
+All the code is release under the [GPL v3.0 License](https://github.com/fabda/Myofibril_paper/blob/master/LICENSE)
 
