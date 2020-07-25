@@ -7,7 +7,7 @@ Preprint : https://www.biorxiv.org/content/10.1101/2020.07.18.209957v1
 
 doi: https://doi.org/10.1101/2020.07.18.209957
 
-## 1 - Setup
+## 1 - Setup (with installation on local computer)
 
 First, you need to setup a Python Anaconda environment (https://www.anaconda.com/products/individual) or miniconda (Python 3.5 or higher), and clone this repository on your computer.
 
@@ -38,9 +38,12 @@ This repository contains two main directories:
 
 *__Install time:__* Depends mainly of your internet connection as every Python packages are downloaded and installed on the fly.
 
-Alternative : Use of MyBinder
+## 1 - Alternative Setup with  MyBinder
+
+Click on the button below to deploy a Jupyter Notebook server on the cloud:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fabda/Myofibril_paper/master)
+
 
 ## 2 - Segmentation (Deep Learning)
 
@@ -53,12 +56,15 @@ All datasets used to train our deep learning segmentation models as well as trai
 | Datasets       | [link](https://amubox.univ-amu.fr/s/cwa5KfPLxGWXCm4/download) |
 | Models         | [link](https://amubox.univ-amu.fr/s/pBSFKic6qASHyJT/download) |
 
-To deploy both Datasets and Models, just unzip the files into the *Segmentation* directory.
+To deploy both Datasets and Models:
+
+a) You can just unzip the files into the *Segmentation* directory.
 
 Once done you should have a new __data__ directory into the __Segmentation__ directory : Segmentation/data/
 
 and a new __model__ directory into the __Segmentation__ directory : Segmentation/models/
 
+b) or you can run the __download_model_and_data.ipynb__ Jupyter Notebook to directly download models and data automatically.
 
 ### Model Training & Segmentation
 
