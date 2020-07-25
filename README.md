@@ -76,7 +76,7 @@ b) or you can run the __download_model_and_data.ipynb__ Jupyter Notebook to dire
 
 All models (provided in the link above) have been trained using one Nvidia GV100 GPU card (32Go GPU RAM). 
 
-- Training time should vary greatly according to the hardware used (GPU, CPU), but you can build a model on both architecture even though we advise you to train the model on a GPU card.
+- Training time should vary greatly according to the hardware used (GPU, CPU), but you can build a model on both architecture even if we advise you to train the model on a GPU card.
 
 - Segmentation can be done on a full 1024x1024 stack in a couple of seconds on a GPU (dozen seconds on a CPU)
 
