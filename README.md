@@ -9,7 +9,7 @@ doi: https://doi.org/10.1101/2020.07.18.209957
 
 ## 1 - Setup
 
-First, you need to setup a Python Anaconda environment (https://www.anaconda.com/products/individual) or miniconda, and clone this repository on your computer.
+First, you need to setup a Python Anaconda environment (https://www.anaconda.com/products/individual) or miniconda (Python 3.5 or higher), and clone this repository on your computer.
 
 Then create a virtual environment and process to the python requirements install by typing into the cloned repository on your computer
 ```
