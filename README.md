@@ -5,7 +5,7 @@
 
 |                |   DOI  |
 |----------------|----------|
-| Preprint      | [![DOI:10.1101/2020.07.18.209957](http://img.shields.io/badge/DOI-10.1101/2020.07.18.209957v1-B31B1B.svg)](https://doi.org/10.1101/2020.07.18.209957)|
+| Preprint      | [![DOI:10.1101/2020.07.18.209957](http://img.shields.io/badge/DOI-10.1101/2020.07.18.209957-B31B1B.svg)](https://doi.org/10.1101/2020.07.18.209957)|
 | Paper          | [![DOI:10.1101/2020.07.18.209957](http://img.shields.io/badge/DOI-10.1101/2020.07.18.209957-B31B1B.svg)](https://doi.org/10.1101/2020.07.18.209957)|
 | Source         | [![DOI](https://zenodo.org/badge/282213124.svg)](https://zenodo.org/badge/latestdoi/282213124) |
 
