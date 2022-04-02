@@ -1,14 +1,13 @@
 # Code Repository
 
-### __"Myofibril and mitochondria morphogenesis are coordinated by a mechanical feedback mechanism in muscle"__
+## __Myofibril and mitochondria morphogenesis are coordinated by a mechanical feedback mechanism in muscle__
 #### Jérôme Avellaneda, Clément Rodier, Fabrice Daian, Thomas Rival, Nuno Miguel Luis, Frank Schnorrer
 
-Preprint: [![DOI:10.1101/2020.07.18.209957](http://img.shields.io/badge/DOI-10.1101/2020.07.18.209957v1-B31B1B.svg)](https://doi.org/10.1101/2020.07.18.209957)
-
-Paper: [![DOI:10.1101/2020.07.18.209957](http://img.shields.io/badge/DOI-10.1101/2020.07.18.209957-B31B1B.svg)](https://doi.org/10.1101/2020.07.18.209957)
-
-Source Code doi: [![DOI](https://zenodo.org/badge/282213124.svg)](https://zenodo.org/badge/latestdoi/282213124)
-
+|                |   DOI  |
+|----------------|----------|
+| Preprint      | [![DOI:10.1101/2020.07.18.209957](http://img.shields.io/badge/DOI-10.1101/2020.07.18.209957v1-B31B1B.svg)](https://doi.org/10.1101/2020.07.18.209957)|
+| Paper          | [![DOI:10.1101/2020.07.18.209957](http://img.shields.io/badge/DOI-10.1101/2020.07.18.209957-B31B1B.svg)](https://doi.org/10.1101/2020.07.18.209957)|
+| Source         | [![DOI](https://zenodo.org/badge/282213124.svg)](https://zenodo.org/badge/latestdoi/282213124) |
 
 ## 1 - Setup (with installation on local computer)
 
