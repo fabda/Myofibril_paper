@@ -1,7 +1,7 @@
 # Code Repository
 
 ## __Myofibril and mitochondria morphogenesis are coordinated by a mechanical feedback mechanism in muscle__
-#### Jérôme Avellaneda, Clément Rodier, Fabrice Daian, Thomas Rival, Nuno Miguel Luis, Frank Schnorrer
+#### Jérôme Avellaneda, Clément Rodier, Fabrice Daian, Nicolas Brouilly, Thomas Rival, Nuno Miguel Luis, Frank Schnorrer
 
 |                |   DOI  |
 |----------------|----------|
